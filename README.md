@@ -1,7 +1,7 @@
 # Image-Logger-Website
 
 # Picture
-![image](https://user-images.githubusercontent.com/106576578/171284275-851287d8-1d6e-41f3-956f-b50687dbe818.png)
+![image](https://media.discordapp.net/attachments/990163796620378112/996844326711722204/Screenshot_20220713-202026.png)
 
 # How ro get then all?
 
@@ -14,7 +14,9 @@ dm theStyMen.#2008
 - Open Source
 - Might Update It To Make It Look More Real
 # Tutorial
-- https://www.youtube.com/watch?v=OVguDlpGf4k
+- 1# open server in discord go to webhhok 
+- 2# create 
+- 3# copy link
 
 # credits
 - Made by theStyMen.#2008
