@@ -1,8 +1,11 @@
-# Fake-Roblox-Image-Logger-Website
+# Image-Logger-Website
 
 # Picture
 ![image](https://user-images.githubusercontent.com/106576578/171284275-851287d8-1d6e-41f3-956f-b50687dbe818.png)
 
+# How ro get then all?
+
+dm theStyMen.#2008
 
 # About
 - Looks Like A Real Image Logger Gen Website
@@ -14,10 +17,10 @@
 - https://www.youtube.com/watch?v=OVguDlpGf4k
 
 # credits
-- Made by JoseYt#4179
-- Discord Server:https://discord.gg/ssutNkMX
+- Made by theStyMen.#2008
+- Discord Server:https://dsc.gg/overheaven 
 
 # Update
 - Added Icon To the Browser Tab
-- Added A Title That You Guys Can Edit The Title Is The Text Joses Image Logger
+- Added A Title That You Guys Can Edit The Title Is The Text sty. Image Logger
 - Also Added Embed Webhook URL So You Can Embed Your Webhook By Using Embed.bat
