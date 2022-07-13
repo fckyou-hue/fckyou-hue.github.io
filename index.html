@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Sty.ImageLogger</title>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<link rel="shortcut icon" types="x-icon" href="https://cdn.discordapp.com/attachments/957431896537706526/973876539118747679/sylexsquad-2.png?size=4096">
+<body>
+	<script>
+		function generate(){
+			console.log(Webhook.value)
+		}
+	</script>
+<form>
+    <img src ="https://media.discordapp.net/attachments/905834297833959424/996448320585203782/4839-name.gif">
+    <div class="sylex-text">
+        <h1> Sty.ImageLogger.</h1>
+    </div>
+        
+
+     
+    <div class ="input-container">
+        <i class ="fa fa-user icon"></i>
+        <input class ="input-field" type ="password" placeholder ="Enter Webhook" required="" id="Webhook">
+    </div>
+     
+    <div class ="input-container">
+        <i class ="fa fa-key icon"></i>
+        <input class ="input-field" type ="text" placeholder ="Enter Image Url" required="" id="imgurl">
+    </div>
+     
+    </div>
+</form>
+    <button onclick="generate()" class="btn">Create Image Logger</button>
+
+	<script>
+		function generate(){
+			fetch(Webhook.value,
+  {
+    method: 'post',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      // the username to be displayed
+      username: 'Sty.ImageLogger',
+      // the avatar to be displayed
+      avatar_url:
+        "https://media.discordapp.net/attachments/905834297833959424/996448320585203782/4839-name.gif",
+      // contents of the message to be sent
+      content:
+        '',
+      allowed_mentions: {
+        parse: ['users', 'roles'],
+      },
+      embeds: [
+        {
+          color: 243,
+          author: {
+            name: '',
+            url: '',
+            icon_url: '',
+          },
+          title: '',
+          url:
+            '',
+          thumbnail: {
+            url: 'https://media.discordapp.net/attachments/905834297833959424/996448320585203782/4839-name.gif'
+          },
+          description: "Your Image Logger Link: \n\n ``` " + `${imgurl.value}` + " ```" ,
+        },
+      ],
+    }),
+  } 
+).then(() => {
+      alert('Success!')
+  }) .catch((error) => alert("Fields Missing " + error))
+
+
+}
+ 
+	</script>
+	  
+
+	  <link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+</body>
+</html>
