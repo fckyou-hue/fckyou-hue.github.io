@@ -3,7 +3,7 @@
 # Picture
 ![image](https://media.discordapp.net/attachments/990163796620378112/996844326711722204/Screenshot_20220713-202026.png)
 
-# How ro get then all?
+# How to get then all?
 
 dm theStyMen.#2008
 
